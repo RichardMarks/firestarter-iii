@@ -1,0 +1,34 @@
+{
+  "name": "firestarter-iii",
+  "version": "1.0.0",
+  "release": "Ashes",
+  "description": "MIT Licensed Open Source 2D HTML5 Game Engine",
+  "author": "Richard Marks <ccpsceo@gmail.com> (http://ccpssolutions.com)",
+  "homepage": "http://ccpssolutions.com",
+  "keywords": [
+    "2d",
+    "HTML5",
+    "canvas",
+    "game",
+    "javascript",
+    "physics"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RichardMarks/firestarter-iii.git"
+  },
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "scripts": {
+    "build": "webpack --config webpack-dev.config.js",
+    "dist": "webpack --config webpack-dist.config.js",
+    "lint": "standard"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "uglify-es": "^3.0.28",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.2",
+    "webpack": "^3.5.5"
+  },
+  "main": "dist/f3.js"
+}
